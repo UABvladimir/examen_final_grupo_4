@@ -5,7 +5,7 @@ var textoBoton = document.createTextNode("Tenemos promociones");
 boton.appendChild(textoBoton);
 
 boton.onclick = function() {
-  alert("Haz hecho clic en el botón");
+  alert("Tenemos promociones");
 };
 var miDiv = document.getElementById("miDiv");
 miDiv.appendChild(boton);
